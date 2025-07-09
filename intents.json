@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "What's up",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! I'm SuperBot. How can I help you today?",
+        "Hi there! SuperBot at your service.",
+        "Hey! Need assistance?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! SuperBot signing off.",
+        "Take care! I'm always here when you need me.",
+        "See you soon!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "Support",
+        "I need assistance",
+        "Help me please"
+      ],
+      "responses": [
+        "Sure, SuperBot is here to help. What do you need?",
+        "Of course! How can SuperBot assist you?"
+      ]
+    },
+    {
+      "tag": "app",
+      "patterns": [
+        "App name",
+        "App",
+        "System name"
+      ],
+      "responses": [
+        "Our app name is GMS",
+        "GMS or gym management system is the app name"
+      ]
+    },
+    {
+      "tag": "chatbot_name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Do you have a name?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I'm SuperBot, your friendly assistant!",
+        "You can call me SuperBot!",
+        "SuperBot is my name, helping is my game."
+      ]
+    }
+  ]
+}
